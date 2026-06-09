@@ -1,0 +1,138 @@
+{
+  "c_bob": {
+    "contact_id": "c_bob",
+    "name": "Bob Ferreira",
+    "role": "backend",
+    "location": "Rio de Janeiro",
+    "rate_usd_hr": 45,
+    "stage": "contacted",
+    "interest": "interested",
+    "interest_reason": "Explicitly states 'count me in' and provides availability and preferred starting point.",
+    "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/voiceloop-prd.md",
+    "created_at": "2026-06-01T09:00:00Z",
+    "_field_timestamps": {
+      "name": "2026-06-01T09:00:00Z",
+      "role": "2026-06-01T09:00:00Z",
+      "location": "2026-06-01T09:00:00Z",
+      "rate_usd_hr": "2026-06-01T16:00:00Z",
+      "stage": "2026-06-02T10:00:00Z"
+    },
+    "doc_name": "voiceloop-prd.md"
+  },
+  "c_jamie": {
+    "contact_id": "c_jamie",
+    "name": "Jamie Chen",
+    "role": "design",
+    "location": "New York",
+    "rate_usd_hr": 55,
+    "stage": "contacted",
+    "interest": "declined",
+    "interest_reason": "Explicitly states they are fully booked and will pass on the opportunity.",
+    "doc_link": null,
+    "created_at": "2026-06-01T09:05:00Z",
+    "_field_timestamps": {
+      "name": "2026-06-01T09:05:00Z",
+      "role": "2026-06-01T09:05:00Z",
+      "location": "2026-06-01T09:05:00Z",
+      "rate_usd_hr": "2026-06-01T09:05:00Z",
+      "stage": "2026-06-02T10:05:00Z"
+    }
+  },
+  "c_diego": {
+    "contact_id": "c_diego",
+    "name": "Diego Morales",
+    "role": "growth",
+    "location": "Mexico City",
+    "rate_usd_hr": 36,
+    "stage": "contacted",
+    "interest": "interested",
+    "interest_reason": "Explicitly confirms interest, identifies relevant expertise, and commits specific hours.",
+    "doc_link": null,
+    "created_at": "2026-06-01T11:00:00Z",
+    "_field_timestamps": {
+      "name": "2026-06-01T11:00:00Z",
+      "role": "2026-06-01T11:00:00Z",
+      "location": "2026-06-01T11:00:00Z",
+      "rate_usd_hr": "2026-06-02T08:30:00Z",
+      "stage": "2026-06-02T10:10:00Z"
+    }
+  },
+  "c_sara": {
+    "contact_id": "c_sara",
+    "name": "Sara Okafor",
+    "role": "frontend",
+    "location": "Lagos",
+    "rate_usd_hr": 38,
+    "stage": "contacted",
+    "interest": "needs_review",
+    "interest_reason": null,
+    "doc_link": null,
+    "created_at": "2026-06-01T12:00:00Z",
+    "_field_timestamps": {
+      "stage": "2026-06-02T09:00:00Z",
+      "name": "2026-06-01T12:00:00Z",
+      "role": "2026-06-01T12:00:00Z",
+      "location": "2026-06-01T12:00:00Z",
+      "rate_usd_hr": "2026-06-01T12:00:00Z"
+    }
+  },
+  "c_anika": {
+    "contact_id": "c_anika",
+    "name": "Anika Patel",
+    "role": "backend",
+    "location": "Vancouver",
+    "rate_usd_hr": 50,
+    "stage": "contacted",
+    "interest": "pending",
+    "interest_reason": null,
+    "doc_link": null,
+    "created_at": "2026-06-01T11:30:00Z",
+    "_field_timestamps": {
+      "name": "2026-06-01T11:30:00Z",
+      "role": "2026-06-01T11:30:00Z",
+      "location": "2026-06-03T14:00:00Z",
+      "rate_usd_hr": "2026-06-01T11:30:00Z",
+      "stage": "2026-06-03T09:00:00Z"
+    }
+  },
+  "c_tomas": {
+    "contact_id": "c_tomas",
+    "name": "Tomás Silva",
+    "role": "design",
+    "location": "Lisbon",
+    "rate_usd_hr": 46,
+    "stage": "contacted",
+    "interest": "interested",
+    "interest_reason": "Explicitly states willingness to help and expresses enthusiasm for the project type.",
+    "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/trailmix-idea-kernel.md",
+    "created_at": "2026-06-01T12:15:00Z",
+    "_field_timestamps": {
+      "name": "2026-06-01T12:15:00Z",
+      "role": "2026-06-01T12:15:00Z",
+      "location": "2026-06-01T12:15:00Z",
+      "rate_usd_hr": "2026-06-03T13:00:00Z",
+      "stage": "2026-06-02T17:00:00Z"
+    },
+    "doc_name": "trailmix-idea-kernel.md"
+  },
+  "c_lena": {
+    "contact_id": "c_lena",
+    "name": "Lena Novak",
+    "role": "frontend",
+    "location": "Prague",
+    "rate_usd_hr": 50,
+    "stage": "new",
+    "interest": "needs_review",
+    "interest_reason": null,
+    "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/pocketcfo-prd.md",
+    "created_at": "2026-06-01T13:00:00Z",
+    "_field_timestamps": {
+      "name": "2026-06-01T13:00:00Z",
+      "role": "2026-06-01T13:00:00Z",
+      "location": "2026-06-01T13:00:00Z",
+      "rate_usd_hr": "2026-06-03T09:30:00Z",
+      "stage": "2026-06-01T13:00:00Z"
+    },
+    "doc_name": "pocketcfo-prd.md"
+  }
+}

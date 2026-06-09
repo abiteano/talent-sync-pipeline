@@ -1,0 +1,28 @@
+[
+  {
+    "event_id": "evt_019",
+    "contact_id": "c_sara",
+    "timestamp": "2026-06-02T15:00:00Z",
+    "reply_text": "Oh interesting. I'm slammed with my day job right now and honestly don't know when that changes... this is normally exactly the kind of thing I'd jump at though. Let's see how the month goes?",
+    "llm_result": {
+      "interest": "needs_review",
+      "confidence": "low",
+      "reason": "Person shows genuine interest but cites time constraints and requests to reassess later.",
+      "project_mentioned": false
+    },
+    "reason": "Low-confidence interest extraction — needs human review"
+  },
+  {
+    "event_id": "evt_027",
+    "contact_id": "c_lena",
+    "timestamp": "2026-06-03T15:00:00Z",
+    "reply_text": "Saw the PocketCFO one-pager — personal finance tooling is where I've spent the last two years. I'm in, if the timing works.",
+    "llm_result": {
+      "interest": "needs_review",
+      "confidence": "low",
+      "reason": "Shows strong interest but conditions participation on timing availability, requiring clarification.",
+      "project_mentioned": true
+    },
+    "reason": "Low-confidence interest extraction — needs human review"
+  }
+]

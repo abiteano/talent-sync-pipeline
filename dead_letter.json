@@ -1,0 +1,21 @@
+[
+  {
+    "event_id": "evt_010",
+    "type": "contact.updated",
+    "timestamp": "2026-06-02T08:00:00Z",
+    "reason": "contact.updated missing contact_id — cannot route",
+    "payload": {
+      "rate_usd_hr": 48
+    }
+  },
+  {
+    "event_id": "evt_020",
+    "type": "talent.vibe_check",
+    "timestamp": "2026-06-02T16:00:00Z",
+    "reason": "Unknown event type 'talent.vibe_check' — not in schema",
+    "payload": {
+      "contact_id": "c_lena",
+      "vibe": "immaculate"
+    }
+  }
+]

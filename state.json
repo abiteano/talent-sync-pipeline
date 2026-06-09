@@ -1,0 +1,25 @@
+{
+  "last_run": "2026-06-09T16:45:12.257219Z",
+  "run_completed": "2026-06-09T16:45:12.324024Z",
+  "feed_url": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/talent-feed.json",
+  "total_events_in_feed": 32,
+  "deduped_events": 28,
+  "skipped_duplicate_event_ids": [
+    "evt_007",
+    "evt_001",
+    "evt_017",
+    "evt_011"
+  ],
+  "new_events_processed": 0,
+  "contacts_created_this_run": [],
+  "contacts_updated_this_run": [],
+  "replies_processed_this_run": [],
+  "dead_lettered_this_run": [],
+  "review_queued_this_run": [],
+  "roster_size": 7,
+  "total_dead_lettered": 2,
+  "total_review_queue": 2,
+  "nothing_changed": true,
+  "conflict_resolution_rule": "Same field, same timestamp, different values: numeric fields keep the lower value (conservative rate); string fields keep the lexicographically smaller value. Applied to: evt_011 vs evt_012 (Diego rate_usd_hr at 2026-06-02T08:30:00Z -> 36 wins over 38).",
+  "default_stage_rule": "Contacts with no explicit stage event default to 'new'. Applied to: c_anika, c_lena, c_tomas (had no stage update before being contacted), and c_bob, c_jamie, c_diego (stage set via contact.updated)."
+}
