@@ -7,21 +7,21 @@
     "llm_result": {
       "interest": "needs_review",
       "confidence": "low",
-      "reason": "Person shows genuine interest but cites time constraints and requests to reassess later.",
+      "reason": "Ambiguous response; could not determine intent.",
       "project_mentioned": false
     },
     "reason": "Low-confidence interest extraction — needs human review"
   },
   {
-    "event_id": "evt_027",
-    "contact_id": "c_lena",
-    "timestamp": "2026-06-03T15:00:00Z",
-    "reply_text": "Saw the PocketCFO one-pager — personal finance tooling is where I've spent the last two years. I'm in, if the timing works.",
+    "event_id": "evt_028",
+    "contact_id": "c_tomas",
+    "timestamp": "2026-06-03T16:00:00Z",
+    "reply_text": "Hey — I'd be down to help on the fitness app you mentioned at the meetup. Design systems for health stuff are my favorite kind of work.",
     "llm_result": {
       "interest": "needs_review",
       "confidence": "low",
-      "reason": "Shows strong interest but conditions participation on timing availability, requiring clarification.",
-      "project_mentioned": true
+      "reason": "Ambiguous response; could not determine intent.",
+      "project_mentioned": false
     },
     "reason": "Low-confidence interest extraction — needs human review"
   }

@@ -17,5 +17,15 @@
       "contact_id": "c_lena",
       "vibe": "immaculate"
     }
+  },
+  {
+    "event_id": "evt_033",
+    "type": "contact.archived",
+    "timestamp": "2026-06-05T10:00:00Z",
+    "reason": "Unknown event type 'contact.archived' — not in schema",
+    "payload": {
+      "contact_id": "c_jamie",
+      "reason": "no longer available"
+    }
   }
 ]

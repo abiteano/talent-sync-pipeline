@@ -15,12 +15,12 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # ── Config ──────────────────────────────────────────────────────────────────
-FEED_URL = "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/talent-feed.json"
+FEED_URL = "https://gist.githubusercontent.com/Boulders91/5473a0d77ce20347e107465cdccc3b15/raw/talent-feed-v2.json"
 DOCS_BASE_URL = "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/"
 DOCS_INDEX = {
-    "voiceloop": {"file": "voiceloop-prd.md", "keywords": ["voiceloop", "voice loop", "voice-loop"]},
-    "pocketcfo": {"file": "pocketcfo-prd.md", "keywords": ["pocketcfo", "pocket cfo", "pocket-cfo", "personal finance", "finance tooling"]},
-    "trailmix":  {"file": "trailmix-idea-kernel.md", "keywords": ["trailmix", "trail mix", "hiking", "fitness app", "health app", "hike"]},
+    "voiceloop": {"file": "voiceloop-prd.md", "keywords": ["voiceloop", "voice loop", "voice-loop", "voice product", "voice app", "voice tool", "voice recording"]},
+    "pocketcfo": {"file": "pocketcfo-prd.md", "keywords": ["pocketcfo", "pocket cfo", "pocket-cfo", "personal finance", "finance tooling", "runway", "cfo"]},
+    "trailmix":  {"file": "trailmix-idea-kernel.md", "keywords": ["trailmix", "trail mix", "trail-mix", "hiking", "hike", "trail"]},
 }
 
 SUMMARY_TO   = os.environ.get("SUMMARY_EMAIL_TO", "brock@sandbar.ai")

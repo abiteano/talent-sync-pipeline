@@ -4,17 +4,17 @@
     "name": "Bob Ferreira",
     "role": "backend",
     "location": "Rio de Janeiro",
-    "rate_usd_hr": 45,
+    "rate_usd_hr": 48,
     "stage": "contacted",
     "interest": "interested",
-    "interest_reason": "Explicitly states 'count me in' and provides availability and preferred starting point.",
+    "interest_reason": "Explicit affirmative language detected.",
     "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/voiceloop-prd.md",
     "created_at": "2026-06-01T09:00:00Z",
     "_field_timestamps": {
       "name": "2026-06-01T09:00:00Z",
       "role": "2026-06-01T09:00:00Z",
       "location": "2026-06-01T09:00:00Z",
-      "rate_usd_hr": "2026-06-01T16:00:00Z",
+      "rate_usd_hr": "2026-06-04T09:00:00Z",
       "stage": "2026-06-02T10:00:00Z"
     },
     "doc_name": "voiceloop-prd.md"
@@ -27,7 +27,7 @@
     "rate_usd_hr": 55,
     "stage": "contacted",
     "interest": "declined",
-    "interest_reason": "Explicitly states they are fully booked and will pass on the opportunity.",
+    "interest_reason": "Explicit decline language detected.",
     "doc_link": null,
     "created_at": "2026-06-01T09:05:00Z",
     "_field_timestamps": {
@@ -46,8 +46,8 @@
     "rate_usd_hr": 36,
     "stage": "contacted",
     "interest": "interested",
-    "interest_reason": "Explicitly confirms interest, identifies relevant expertise, and commits specific hours.",
-    "doc_link": null,
+    "interest_reason": "Explicit affirmative language detected.",
+    "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/voiceloop-prd.md",
     "created_at": "2026-06-01T11:00:00Z",
     "_field_timestamps": {
       "name": "2026-06-01T11:00:00Z",
@@ -55,7 +55,8 @@
       "location": "2026-06-01T11:00:00Z",
       "rate_usd_hr": "2026-06-02T08:30:00Z",
       "stage": "2026-06-02T10:10:00Z"
-    }
+    },
+    "doc_name": "voiceloop-prd.md"
   },
   "c_sara": {
     "contact_id": "c_sara",
@@ -64,8 +65,8 @@
     "location": "Lagos",
     "rate_usd_hr": 38,
     "stage": "contacted",
-    "interest": "needs_review",
-    "interest_reason": null,
+    "interest": "declined",
+    "interest_reason": "Explicit decline language detected.",
     "doc_link": null,
     "created_at": "2026-06-01T12:00:00Z",
     "_field_timestamps": {
@@ -83,9 +84,9 @@
     "location": "Vancouver",
     "rate_usd_hr": 50,
     "stage": "contacted",
-    "interest": "pending",
-    "interest_reason": null,
-    "doc_link": null,
+    "interest": "interested",
+    "interest_reason": "Explicit affirmative language detected.",
+    "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/pocketcfo-prd.md",
     "created_at": "2026-06-01T11:30:00Z",
     "_field_timestamps": {
       "name": "2026-06-01T11:30:00Z",
@@ -93,7 +94,8 @@
       "location": "2026-06-03T14:00:00Z",
       "rate_usd_hr": "2026-06-01T11:30:00Z",
       "stage": "2026-06-03T09:00:00Z"
-    }
+    },
+    "doc_name": "pocketcfo-prd.md"
   },
   "c_tomas": {
     "contact_id": "c_tomas",
@@ -102,9 +104,9 @@
     "location": "Lisbon",
     "rate_usd_hr": 46,
     "stage": "contacted",
-    "interest": "interested",
-    "interest_reason": "Explicitly states willingness to help and expresses enthusiasm for the project type.",
-    "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/trailmix-idea-kernel.md",
+    "interest": "needs_review",
+    "interest_reason": null,
+    "doc_link": null,
     "created_at": "2026-06-01T12:15:00Z",
     "_field_timestamps": {
       "name": "2026-06-01T12:15:00Z",
@@ -112,8 +114,7 @@
       "location": "2026-06-01T12:15:00Z",
       "rate_usd_hr": "2026-06-03T13:00:00Z",
       "stage": "2026-06-02T17:00:00Z"
-    },
-    "doc_name": "trailmix-idea-kernel.md"
+    }
   },
   "c_lena": {
     "contact_id": "c_lena",
@@ -122,8 +123,8 @@
     "location": "Prague",
     "rate_usd_hr": 50,
     "stage": "new",
-    "interest": "needs_review",
-    "interest_reason": null,
+    "interest": "interested",
+    "interest_reason": "Explicit affirmative language detected.",
     "doc_link": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/pocketcfo-prd.md",
     "created_at": "2026-06-01T13:00:00Z",
     "_field_timestamps": {
@@ -134,5 +135,24 @@
       "stage": "2026-06-01T13:00:00Z"
     },
     "doc_name": "pocketcfo-prd.md"
+  },
+  "c_marco": {
+    "contact_id": "c_marco",
+    "name": "Marco Ribeiro",
+    "role": "backend",
+    "location": "São Paulo",
+    "rate_usd_hr": 42,
+    "stage": "new",
+    "interest": "pending",
+    "interest_reason": null,
+    "doc_link": null,
+    "created_at": "2026-06-04T11:00:00Z",
+    "_field_timestamps": {
+      "name": "2026-06-04T11:00:00Z",
+      "role": "2026-06-04T11:00:00Z",
+      "location": "2026-06-04T11:00:00Z",
+      "rate_usd_hr": "2026-06-04T11:00:00Z",
+      "stage": "2026-06-04T11:00:00Z"
+    }
   }
 }

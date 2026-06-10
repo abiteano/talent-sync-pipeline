@@ -1,8 +1,9 @@
 contact_id,name,role,location,rate_usd_hr,stage,interest,interest_reason,doc_link,doc_name
-c_bob,Bob Ferreira,backend,Rio de Janeiro,45,contacted,interested,Explicitly states 'count me in' and provides availability and preferred starting point.,https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/voiceloop-prd.md,voiceloop-prd.md
-c_jamie,Jamie Chen,design,New York,55,contacted,declined,Explicitly states they are fully booked and will pass on the opportunity.,,
-c_diego,Diego Morales,growth,Mexico City,36,contacted,interested,"Explicitly confirms interest, identifies relevant expertise, and commits specific hours.",,
-c_sara,Sara Okafor,frontend,Lagos,38,contacted,needs_review,,,
-c_anika,Anika Patel,backend,Vancouver,50,contacted,pending,,,
-c_tomas,Tomás Silva,design,Lisbon,46,contacted,interested,Explicitly states willingness to help and expresses enthusiasm for the project type.,https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/trailmix-idea-kernel.md,trailmix-idea-kernel.md
-c_lena,Lena Novak,frontend,Prague,50,new,needs_review,,https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/pocketcfo-prd.md,pocketcfo-prd.md
+c_bob,Bob Ferreira,backend,Rio de Janeiro,48,contacted,interested,Explicit affirmative language detected.,https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/voiceloop-prd.md,voiceloop-prd.md
+c_jamie,Jamie Chen,design,New York,55,contacted,declined,Explicit decline language detected.,,
+c_diego,Diego Morales,growth,Mexico City,36,contacted,interested,Explicit affirmative language detected.,https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/voiceloop-prd.md,voiceloop-prd.md
+c_sara,Sara Okafor,frontend,Lagos,38,contacted,declined,Explicit decline language detected.,,
+c_anika,Anika Patel,backend,Vancouver,50,contacted,interested,Explicit affirmative language detected.,https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/pocketcfo-prd.md,pocketcfo-prd.md
+c_tomas,Tomás Silva,design,Lisbon,46,contacted,needs_review,,,
+c_lena,Lena Novak,frontend,Prague,50,new,interested,Explicit affirmative language detected.,https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/docs/pocketcfo-prd.md,pocketcfo-prd.md
+c_marco,Marco Ribeiro,backend,São Paulo,42,new,pending,,,

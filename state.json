@@ -1,25 +1,182 @@
 {
-  "last_run": "2026-06-09T16:45:12.257219Z",
-  "run_completed": "2026-06-09T16:45:12.324024Z",
-  "feed_url": "https://raw.githubusercontent.com/Boulders91/talent-sync-trial/main/talent-feed.json",
-  "total_events_in_feed": 32,
-  "deduped_events": 28,
+  "last_run": "2026-06-10T01:14:53.394493Z",
+  "run_completed": "2026-06-10T01:14:53.754973Z",
+  "feed_url": "https://gist.githubusercontent.com/Boulders91/5473a0d77ce20347e107465cdccc3b15/raw/talent-feed-v2.json",
+  "total_events_in_feed": 38,
+  "deduped_events": 33,
   "skipped_duplicate_event_ids": [
     "evt_007",
     "evt_001",
     "evt_017",
-    "evt_011"
+    "evt_011",
+    "evt_030"
   ],
-  "new_events_processed": 0,
-  "contacts_created_this_run": [],
-  "contacts_updated_this_run": [],
-  "replies_processed_this_run": [],
-  "dead_lettered_this_run": [],
-  "review_queued_this_run": [],
-  "roster_size": 7,
-  "total_dead_lettered": 2,
+  "new_events_processed": 33,
+  "contacts_created_this_run": [
+    "c_bob",
+    "c_jamie",
+    "c_diego",
+    "c_anika",
+    "c_tomas",
+    "c_lena",
+    "c_marco"
+  ],
+  "contacts_updated_this_run": [
+    {
+      "contact_id": "c_bob",
+      "fields": [
+        "rate_usd_hr"
+      ],
+      "event_id": "evt_003"
+    },
+    {
+      "contact_id": "c_sara",
+      "fields": [
+        "stage"
+      ],
+      "event_id": "evt_005"
+    },
+    {
+      "contact_id": "c_diego",
+      "fields": [
+        "rate_usd_hr"
+      ],
+      "event_id": "evt_011"
+    },
+    {
+      "contact_id": "c_diego",
+      "fields": [
+        "rate_usd_hr[tie-break]"
+      ],
+      "event_id": "evt_012"
+    },
+    {
+      "contact_id": "c_bob",
+      "fields": [
+        "stage"
+      ],
+      "event_id": "evt_014"
+    },
+    {
+      "contact_id": "c_jamie",
+      "fields": [
+        "stage"
+      ],
+      "event_id": "evt_015"
+    },
+    {
+      "contact_id": "c_diego",
+      "fields": [
+        "stage"
+      ],
+      "event_id": "evt_016"
+    },
+    {
+      "contact_id": "c_tomas",
+      "fields": [
+        "stage"
+      ],
+      "event_id": "evt_021"
+    },
+    {
+      "contact_id": "c_anika",
+      "fields": [
+        "stage"
+      ],
+      "event_id": "evt_022"
+    },
+    {
+      "contact_id": "c_lena",
+      "fields": [
+        "rate_usd_hr"
+      ],
+      "event_id": "evt_023"
+    },
+    {
+      "contact_id": "c_tomas",
+      "fields": [
+        "rate_usd_hr"
+      ],
+      "event_id": "evt_025"
+    },
+    {
+      "contact_id": "c_anika",
+      "fields": [
+        "location"
+      ],
+      "event_id": "evt_026"
+    },
+    {
+      "contact_id": "c_bob",
+      "fields": [
+        "rate_usd_hr"
+      ],
+      "event_id": "evt_031"
+    }
+  ],
+  "replies_processed_this_run": [
+    {
+      "event_id": "evt_017",
+      "contact_id": "c_bob",
+      "interest": "interested",
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_018",
+      "contact_id": "c_jamie",
+      "interest": "declined",
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_019",
+      "contact_id": "c_sara",
+      "interest": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "event_id": "evt_024",
+      "contact_id": "c_diego",
+      "interest": "interested",
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_027",
+      "contact_id": "c_lena",
+      "interest": "interested",
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_028",
+      "contact_id": "c_tomas",
+      "interest": "needs_review",
+      "confidence": "low"
+    },
+    {
+      "event_id": "evt_029",
+      "contact_id": "c_anika",
+      "interest": "interested",
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_032",
+      "contact_id": "c_sara",
+      "interest": "declined",
+      "confidence": "high"
+    }
+  ],
+  "dead_lettered_this_run": [
+    "evt_010",
+    "evt_020",
+    "evt_033"
+  ],
+  "review_queued_this_run": [
+    "evt_019",
+    "evt_028"
+  ],
+  "roster_size": 8,
+  "total_dead_lettered": 3,
   "total_review_queue": 2,
-  "nothing_changed": true,
+  "nothing_changed": false,
   "conflict_resolution_rule": "Same field, same timestamp, different values: numeric fields keep the lower value (conservative rate); string fields keep the lexicographically smaller value. Applied to: evt_011 vs evt_012 (Diego rate_usd_hr at 2026-06-02T08:30:00Z -> 36 wins over 38).",
   "default_stage_rule": "Contacts with no explicit stage event default to 'new'. Applied to: c_anika, c_lena, c_tomas (had no stage update before being contacted), and c_bob, c_jamie, c_diego (stage set via contact.updated)."
 }
